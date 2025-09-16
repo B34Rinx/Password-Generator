@@ -14,7 +14,7 @@ Cryptographically strong password generator using Python's `secrets`. Interactiv
 
 ## Quick start
 ```bash
-python password_generator.py
+python3 Password_Generator.py
 ```
 
 ## Setup & Run (simple steps)
@@ -34,7 +34,7 @@ python password_generator.py
    > ```
 3. Run the generator:
    ```powershell
-   python password_generator.py
+   python Password_Generator.py
    ```
 4. When you're done:
    ```powershell
@@ -52,32 +52,4 @@ python password_generator.py
    ```
 3. Run the generator:
    ```bash
-   python password_generator.py
-   ```
-4. When you're done:
-   ```bash
-   deactivate
-   ```
-
-> Tip: You can also run without a venv if you prefer:
-> ```bash
-> python password_generator.py
-> ```
-
-## Non-interactive examples (optional)
-```bash
-# 3 passwords, length 20, exclude ambiguous (default)
-python password_generator.py --length 20 --num 3
-
-# No symbols, length 24
-python password_generator.py --no-symbols --length 24
-```
-
-## Security notes
-- Uses Python's `secrets` (crypto-strong)
-- Ensures at least one character from each selected set
-- No whitespace in specials; edit the allowed set if a site restricts symbols
-- Prefer length ≥ 16; rotate if exposed
-
-## License
-MIT © 2025 Nalain R — see [LICENSE](LICENSE).
+   python3 Password_Genera_
