@@ -52,4 +52,23 @@ python3 Password_Generator.py
    ```
 3. Run the generator:
    ```bash
-   python3 Password_Genera_
+   python3 Password_Generator.py
+   ```
+4. When you're done:
+   ```bash
+   deactivate
+   ```
+
+> Tip: You can also run without a venv if you prefer:
+> ```bash
+> python3 Password_Generator.py
+> ```
+
+## Security notes
+- Uses Python's `secrets` (crypto-strong)
+- Ensures at least one character from each selected set
+- No whitespace in specials; edit the allowed set if a site restricts symbols
+- Prefer length ≥ 16; rotate if exposed
+
+## License
+MIT © 2025 Nalain R — see [LICENSE](LICENSE).
