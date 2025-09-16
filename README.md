@@ -1,10 +1,16 @@
 # Password Generator (Python)
 
-Crypto-strong password generator using `secrets`. 
-- Ensures at least one char from each selected set
-- No whitespace in specials; configurable allowed symbols
-- Simple CLI; no data stored
+Crypto-strong password generator using Python’s `secrets`. Interactive CLI; nothing is stored.
 
-## Usage
+## Features
+- Cryptographically secure randomness (`secrets`) — not `random`
+- Guarantees at least one character from each selected set
+- No whitespace in specials; configurable allowed symbols
+- Interactive CLI (no data stored)
+
+## Requirements
+- Python 3.10+ (recommended)
+
+## Quick start
 ```bash
 python password_generator.py
