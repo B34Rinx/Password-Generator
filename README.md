@@ -16,6 +16,19 @@ Cryptographically strong password generator using Python's `secrets`. Interactiv
 ```bash
 python3 Password_Generator.py
 ```
+## Example (interactive)
+
+> Demo only — the password below is a placeholder. Always generate your own.
+
+```text
+$ python3 Password_Generator.py
+Enter password length: 16
+Include which sets? (y/n)
+Digits? [y/n]: y
+Letters? [y/n]: y
+Specials? [y/n]: y
+Your password: <generated password appears here>
+```
 
 ## Setup & Run (simple steps)
 
