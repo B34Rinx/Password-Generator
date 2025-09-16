@@ -1,0 +1,9 @@
+Uses Python’s secrets (crypto-strong).
+
+Ensures at least one char from each selected set (helps pass policy checks).
+
+No whitespace in specials. If a site restricts symbols, edit the allowed set in code.
+
+Prefer length ≥ 16; use longer for high-value accounts.
+
+Avoid copying to shared clipboards; rotate if exposed.
