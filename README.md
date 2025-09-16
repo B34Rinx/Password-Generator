@@ -80,4 +80,4 @@ python password_generator.py --no-symbols --length 24
 - Prefer length ≥ 16; rotate if exposed
 
 ## License
-MIT — see `LICENSE`.
+MIT © 2025 Nalain R — see [LICENSE](LICENSE).
