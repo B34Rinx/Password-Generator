@@ -14,14 +14,15 @@ Crypto-strong password generator using Python’s `secrets`. Interactive CLI; no
 ## Quick start
 ```bash
 python password_generator.py
-
-You’ll be prompted for the password length and which character sets to include.
-
+```
 #Security notes
-Uses Python’s secrets (crypto-strong)
+- Uses Python’s secrets (crypto-strong)
+- Ensures at least one char from each selected set
+- No whitespace in specials; edit allowed set if a site restricts symbols
+- Prefer length ≥ 16; rotate if exposed
 
-Ensures at least one char from each selected set
+## Development
+- Create a virtualenv and run `python password_generator.py`
 
-No whitespace in specials; edit allowed set if a site restricts symbols
-
-Prefer length ≥ 16; rotate if exposed
+## License
+MIT — see `LICENSE`.
